@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body {
+    background: rgb(42,11,11);
+    background: linear-gradient(06deg, rgb(20, 15, 15) -40%, rgb(43, 100, 33) 40%, rgb(20, 15, 15) 300%);
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+    font-style: normal;
+    font-size: large;
+}
+
+h1 {
+    color: rgba(252, 47, 47, 0.979);
+    font-family: Luminari, fantasy;
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    color: white;
+    text-align: justify;
+     font-family: "Poppins", sans-serif;
+     font-size: 25px;
+     padding-bottom: 10px;
+
+}
+li{
+    
+    color: rgb(228, 141, 60);
+    text-align: justify;
+     font-family: "Poppins", sans-serif;
+     font-size: 30px;
+
+}
+h2 {
+    color: rgb(226, 133, 45);
+    font-size: 40px;
+    height: 30px;
+}
+h3 {
+    color: rgb(226, 226, 226);
+    text-align: center;
+    font-size: 26px;
+}
+a{
+    color: rgb(101, 230, 112);
+    font-size: 30px;
+}
+.container {
+    text-align: center;
+    max-width: 200;
+    max-height: 200;
+    height: auto;
+    width: auto;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 700px;
+
+}
+td{
+    border: white solid 3px;
+    padding: 10px 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 175px;
+    justify-content: center;
+    border: white  solid 3px;
+    border-collapse: collapse;
+}
+.grid img {
+    width: 300px;
+}
